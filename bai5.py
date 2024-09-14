@@ -9,10 +9,11 @@ namsinh = int(input("Nhap nam sinh cua ban: "))
 namhientai = 2023
 tuoi = namhientai - namsinh
 if tuoi == 0:
-    print("Tuoi cua ban la: a  + 1")
+    print("Tuoi cua ban la: ")
 elif (tuoi < 0 ):
     print(" Tuoi chua ton tai ")
 else:
-    print("tuoi cua ban la:  " )  
+    print("tuoi cua ban la:  ", namhientai - namsinh)
+    
     
     
